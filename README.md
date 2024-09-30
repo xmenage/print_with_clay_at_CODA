@@ -27,33 +27,33 @@ Instructions below have been written for Windows.
 ### Prerequisites
 
 To get started, you will need:
-- A fairly recent version of Python. All the code here hase been tested with Python 3.12. It should include pip and venv
+- A fairly recent version of Python. All the code here has been tested with Python 3.12. It should include pip and venv
 - Git client
 
 ### Setup the environment
 
-- Clone this repository  
-
-    `git clone https://github.com/xmenage/3D_clay_printing_at_CODA.git 3D_clay_printing_at_CODA`  
-    `cd 3D_clay_printing_at_CODA`
-
-- Create a virtual environment  
-
-    `py -m venv .venv`  
-    `.venv\Scripts\activate`
-
-- Install the dependencies listed in requirements.txt  
-
-    `py -m pip install -r requirements.txt`
-
-- copy lutum.py to .venv/Lib/site-packages/fullcontrol/gcode/printer_library/singletool.
-This last step is only needed to generate the gcode.
+- Clone this repository
+````
+git clone https://github.com/xmenage/3D_clay_printing_at_CODA.git 3D_clay_printing_at_CODA
+cd 3D_clay_printing_at_CODA
+````
+- Create a virtual environment and install required packages  
+````
+py -m venv .venv
+.venv\Scripts\activate
+py -m pip install -r requirements.txt
+````
+- Add the lutum 5M printer to the fullcontrol module  
+````
+copy lutum.py .venv\Lib\site-packages\fullcontrol\gcode\printer_library\singletool 
+````
+- This last step is only needed to generate the gcode.
 It is possible to run the notebook up to that last step just for visualisation purpose 
 
 ### Start the notebook
-
-`Jupyter notebook`
-
+````
+Jupyter notebook
+````
 This will open the jupyter home in the browser. 
 Select `print_with_clay_at_CODA.ipynb` and clic `Open`
 That will open the notebook in another page.
