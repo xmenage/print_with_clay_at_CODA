@@ -1,0 +1,4 @@
+*.gcode
+.idea
+.ipynb_checkpoints
+.venv
