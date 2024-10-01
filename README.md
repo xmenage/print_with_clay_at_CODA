@@ -2,14 +2,16 @@
 
 ## Introduction
 
-This jupyter notebook can be used as a basis to create shapes for clay 3D printing. 
+This tutorial can be used as a basis to create shapes for clay 3D printing. 
 
 It uses polar equations to define the shape to be printed.
 Actually a polar equation is the only thing needed to create a new shape.
 The GenerativeShape module contains necessary functions that will generate the printing instructions layer by layer
 from the polar equation.
 
-The easiest way to get started is to setup the environment then run the whole notebook (Menu Run > Run All Cells) then visualize the result. It will also generate the gcode file ready to print which can be viewed in a gcode viewer
+The easiest way to get started is to set up the environment then run the whole notebook (Menu Run > Run All Cells).
+The result can be visalized in the notebook.
+It will also generate the gcode file ready to print. It can also be viewed in a gcode viewer
 
 To create a new shape, duplicate and modify one of the methods defined in the Shell class then assign it to the shell.polar_curve attribute
 
@@ -18,8 +20,7 @@ https://www.geogebra.org/calculator/cfqafypg
 
 printing parameters are defined for a Vormvrij Lutum 5M printer
 
-All gcode generation and visualization uses the FullControl package which can be found here https://github.com/FullControlXYZ/fullcontrol
-
+Visualization and gcode generation uses the FullControl package which can be found here https://github.com/FullControlXYZ/fullcontrol
 
 ## Installation
 Instructions below have been written for Windows.
@@ -27,7 +28,7 @@ Instructions below have been written for Windows.
 ### Prerequisites
 
 To get started, you will need:
-- A fairly recent version of Python. All the code here has been tested with Python 3.12. It should include pip and venv
+- Python. All the code here has been tested with Python 3.12
 - Git client
 
 ### Setup the environment
