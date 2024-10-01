@@ -15,7 +15,7 @@ It will also generate the gcode file ready to print. The gcode file can be viewe
 
 To create a new shape, duplicate and modify one of the methods defined in the Shell class then assign it to the shell.polar_curve attribute
 
-The various curves used to define the shapes can be explored here
+The various curves used to define the shapes can be explored here 
 https://www.geogebra.org/calculator/cfqafypg
 
 printing parameters are defined for a Vormvrij Lutum 5M printer
