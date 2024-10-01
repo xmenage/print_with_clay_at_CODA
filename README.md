@@ -10,8 +10,8 @@ The GenerativeShape module contains necessary functions that will generate the p
 from the polar equation.
 
 The easiest way to get started is to set up the environment then run the whole notebook (Menu Run > Run All Cells).
-The result can be visalized in the notebook.
-It will also generate the gcode file ready to print. It can also be viewed in a gcode viewer
+The result can be visualized in the notebook.
+It will also generate the gcode file ready to print. The gcode file can be viewed in a gcode viewer
 
 To create a new shape, duplicate and modify one of the methods defined in the Shell class then assign it to the shell.polar_curve attribute
 
@@ -35,8 +35,8 @@ To get started, you will need:
 
 - Clone this repository
 ````
-git clone https://github.com/xmenage/3D_clay_printing_at_CODA.git 3D_clay_printing_at_CODA
-cd 3D_clay_printing_at_CODA
+git clone https://github.com/xmenage/print_with_clay_at_CODA.git print_with_clay_at_CODA
+cd print_with_clay_at_CODA
 ````
 - Create a virtual environment and install required packages  
 ````
