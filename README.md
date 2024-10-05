@@ -53,6 +53,7 @@ It is possible to run the notebook up to that last step just for visualisation p
 
 ### Start the notebook
 ````
+.venv\Scripts\activate
 Jupyter notebook
 ````
 This will open the jupyter home in the browser. 
