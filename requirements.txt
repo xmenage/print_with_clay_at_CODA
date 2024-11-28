@@ -6,13 +6,6 @@ plotly
 pydantic
 fullcontrol
 
-# needed for splinepy
-splinepy
-vedo
-
-# additional needed for this project
-vnoise
-
 # needed for use with jupyter notebooks to generate output file names
 ipynbname
 jupyter
