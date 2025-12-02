@@ -32,7 +32,7 @@ To get started, you will need:
 - Git client
 
 ### Setup the environment
-
+- Start a command window and run the commands below
 - Clone this repository
 ````
 git clone https://github.com/xmenage/print_with_clay_at_CODA.git print_with_clay_at_CODA
