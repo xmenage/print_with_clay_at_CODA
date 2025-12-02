@@ -46,7 +46,7 @@ py -m pip install -r requirements.txt
 ````
 - Add the lutum 5M printer to the fullcontrol module  
 ````
-copy lutum.py .venv\Lib\site-packages\fullcontrol\gcode\printer_library\singletool 
+copy lutum.py .venv\Lib\site-packages\fullcontrol\devices\community\singletool 
 ````
 - This last step is only needed to generate the gcode.
 It is possible to run the notebook up to that last step just for visualisation purpose 
